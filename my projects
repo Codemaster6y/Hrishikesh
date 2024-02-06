@@ -1,0 +1,27 @@
+include<stdio.h>
+#include<conio.h>
+void main() 
+{
+int a;
+int b;
+int c;
+int d;
+int e;
+int num;
+clrscr() ;
+printf(" enter medical insurance ") ;
+scanf("%d", &a) ;
+printf(" enter the tax") ;
+scanf("%d", &b) ;
+printf("enter the pension to be cut") ;
+scanf("%d", &c) ;
+if(num >1000) 
+d=a+b+c;
+printf ("the salary to be cut   
+\t%d\n", d) ;
+printf("enter the salary") ;
+scanf("%d", &e) ;
+f=e-d;
+printf(" the loss in salary") ;
+getch() ;
+}
