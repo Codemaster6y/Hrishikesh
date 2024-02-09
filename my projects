@@ -22,6 +22,7 @@ printf ("the salary to be cut
 printf("enter the salary") ;
 scanf("%d", &e) ;
 f=e-d;
-printf(" the remaining in salary") ;
+printf(" the remaining in salary");
+scanf("%d",&f);
 getch() ;
 }
